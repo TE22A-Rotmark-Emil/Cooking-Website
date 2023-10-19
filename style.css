@@ -15,10 +15,13 @@ body {
     grid-template-rows: 1fr 3fr 3fr 8fr 2fr 2fr;
 }
 
-.headerColour {
-    min-height: 0;
+.headerColour{
     grid-column: 1/8;
     grid-row: 1;
+    padding: 0px;
+    height:100%;
+    width:100%;
+    background:rgba(0,0,0,0.5);
 }
 
 .header {
