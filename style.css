@@ -1,0 +1,17 @@
+body{
+    margin:0px;
+    border:0px;
+    padding:0px;
+}
+.maindiv{
+    margin:auto;
+    height: 800vh;
+    width: 70vw;
+    padding:0px;
+    border:0px;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+p{
+    font-size: small;
+}
