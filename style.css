@@ -27,7 +27,7 @@ body {
     align-items: center;
 }
 
-.section1, .section2, .section3, .section4, .section5{
+.section1, .section2, .section3, .section4, .section5, .final{
     text-align:center;
     margin:auto;
     grid-column: 2/9;
@@ -53,6 +53,10 @@ body {
     grid-row: 12/13;
 }
 
+.final{
+    grid-row: 15/21;
+}
+
 .section2picture{
     grid-row: 6/7;
     grid-column: 4/7;
@@ -67,6 +71,12 @@ body {
 
 .section4picture{
     grid-row: 11/12;
+    grid-column: 4/7;
+    min-height: 0;
+}
+
+.section5picture{
+    grid-row: 13/15;
     grid-column: 4/7;
     min-height: 0;
 }
