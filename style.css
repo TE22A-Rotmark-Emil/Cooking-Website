@@ -16,12 +16,22 @@ body {
 }
 
 .headerColour{
+    display:flex;
+    margin:auto;
     grid-column: 1/8;
     grid-row: 1;
     padding: 0px;
-    height:100%;
-    width:100%;
-    background:rgba(0,0,0,0.5);
+    height:93%;
+    width:99%;
+    background:rgba(0,0,0,0.50);
+    align-items: center;
+}
+
+h1{
+    font-size: 5vw;
+    margin:auto;
+    grid-column: 1/8;
+    color:rgb(255, 255, 255);
 }
 
 .header {
