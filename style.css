@@ -11,14 +11,14 @@ body {
     padding: 0px;
     border: 0px;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 3fr 3fr 8fr 2fr 2fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
 }
 
 .headerColour{
     display:flex;
     margin:auto;
-    grid-column: 1/8;
+    grid-column: 1/10;
     grid-row: 1;
     padding: 0px;
     height:93%;
@@ -27,21 +27,49 @@ body {
     align-items: center;
 }
 
+.content{
+    grid-row: 2/21;
+    grid-column: 2/9;
+    height:100%;
+    width:100%;
+    text-align:center;
+    background:gray;
+}
+
+.meatimage{
+    min-height:0;
+    grid-row: 3/4;
+    grid-column: 3/8;
+    height:100%;
+    width:100%;
+    background:white;
+}
+
+p, ol, ul{
+    font-size: 1.5vw;
+    font-weight:light;
+}
+
+.emphasis{
+    color:darkred;
+    font-weight:bold;
+}
+
 h1{
     font-size: 5vw;
     margin:auto;
-    grid-column: 1/8;
+    grid-column: 1/10;
     color:rgb(255, 255, 255);
 }
 
 .header {
     min-height: 0;
-    grid-column: 1/8;
+    grid-column: 1/10;
     grid-row: 1;
     padding: 10px;
 }
 
-.headerImage {
+img {
     height: 100%;
     width: 100%;
 }
