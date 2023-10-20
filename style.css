@@ -47,6 +47,11 @@ body {
     grid-column: 2/9;
 }
 
+.section4{
+    grid-row: 9/11;
+    grid-column: 2/9;
+}
+
 .section2picture{
     grid-row: 6/7;
     grid-column: 4/7;
@@ -55,6 +60,12 @@ body {
 
 .section3picture{
     grid-row: 8/9;
+    grid-column: 4/7;
+    min-height: 0;
+}
+
+.section4picture{
+    grid-row: 11;
     grid-column: 4/7;
     min-height: 0;
 }
