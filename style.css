@@ -42,6 +42,23 @@ body {
     grid-column: 2/9;
 }
 
+.section3{
+    grid-row: 7/8;
+    grid-column: 2/9;
+}
+
+.section2picture{
+    grid-row: 6/7;
+    grid-column: 4/7;
+    min-height:0;
+}
+
+.section3picture{
+    grid-row: 8/9;
+    grid-column: 4/7;
+    min-height: 0;
+}
+
 .contentbg{
     grid-row: 2/21;
     grid-column: 2/9;
@@ -80,6 +97,10 @@ h1{
 
 h2{
     font-size: 2.5vw;
+}
+
+h3{
+    font-size: 2vw;
 }
 
 .header {
